@@ -3,8 +3,14 @@
 
 ## 音效
 ### 解包
-使用[NSC_BUILDER](https://github.com/julesontheroad/NSC_BUILDER/releases),具体操作请参见:[文章](https://blog.csdn.net/today__present/article/details/123171658)第一步  
-目录如下:  
+1. 使用[NSC_BUILDER](https://github.com/julesontheroad/NSC_BUILDER/releases),具体操作请参见:[文章](https://blog.csdn.net/today__present/article/details/123171658)第一步
+2. 使用[hactool](https://github.com/SciresM/hactool/releases),解析上述步骤解析的**NCA**步骤如下
+3. 输入1,选择NCA文件
+4. 输入1,提取解密的NCA文件(若文件加密请自行谷歌解密步骤)
+5. 输入2,转换为**Romfs**文件夹  
+![image](https://user-images.githubusercontent.com/51876689/196018873-156c3eea-5e62-45b6-b48b-eb5c2dee887e.png)
+
+完成后目录如下:  
 ![image](https://user-images.githubusercontent.com/51876689/195987009-8baa11c7-7885-435e-8528-f131c21a68bd.png)  
 Sound-Resource目录即为**背景音乐及音效目录**
 
